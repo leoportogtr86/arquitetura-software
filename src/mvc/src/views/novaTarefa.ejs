@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nova Tarefa</title>
+</head>
+<body>
+<h1>Adicionar Nova Tarefa</h1>
+<form action="/adicionar" method="POST">
+    <label for="titulo">Título:</label>
+    <input type="text" id="titulo" name="titulo" required>
+    <br>
+    <label for="descricao">Descrição:</label>
+    <textarea id="descricao" name="descricao"></textarea>
+    <br>
+    <button type="submit">Adicionar Tarefa</button>
+</form>
+<a href="/">Voltar</a>
+</body>
+</html>

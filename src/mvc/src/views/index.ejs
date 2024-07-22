@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lista de Tarefas</title>
+</head>
+<body>
+<h1>Lista de Tarefas</h1>
+<ul>
+    <% tarefas.forEach(tarefa => { %>
+        <li><%= tarefa.titulo %>: <%= tarefa.descricao %></li>
+    <% }); %>
+</ul>
+<a href="/novaTarefa">Adicionar Nova Tarefa</a>
+</body>
+</html>
